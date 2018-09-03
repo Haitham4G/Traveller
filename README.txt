@@ -1,13 +1,12 @@
 
 TITLE: 
-Traveler - 100% Fully Responsive Free HTML5 Bootstrap Template
+Traveler - 100% Fully Responsive 
 
 AUTHOR:
-DESIGNED & DEVELOPED by GetTemplates.co
+DESIGNED & DEVELOPED by Haitham Gamal
 
-Website: http://gettemplates.co/
-Twitter: http://twitter.com/gettemplatesco
-Facebook: http://facebook.com/gettemplatesco
+Twitter: http://twitter.com/haitham4g
+Facebook: http://facebook.com/haithamgamal
 
 CREDITS:
 
@@ -36,10 +35,7 @@ Respond JS
 https://github.com/scottjehl/Respond/blob/master/LICENSE-MIT
 
 animate.css
-http://daneden.me/animate
-
-jQuery Waypoint
-https://github.com/imakewebthings/waypoints/blog/master/licenses.txt
+http://hg.me/animate
 
 Owl Carousel
 http://www.owlcarousel.owlgraphic.com/
