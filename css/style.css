@@ -47,7 +47,7 @@ body {
 }
 
 a {
-  color: #09C6AB;
+  color: #8470FF;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -235,6 +235,12 @@ h1, h2, h3, h4, h5, h6, figure {
 .gtco-nav ul li.active > a {
   color: #fff !important;
 }
+
+
+
+/* ===================================================================
+        Start Header
+=========================================   */ 
 
 #gtco-header {
   background: #4d4d4d;
@@ -726,6 +732,11 @@ form label {
   margin-left: 3px;
 }
 
+
+/* ==============================================================================
+    Start Features Section 
+============================= */
+
 #gtco-features,
 #gtco-features-2,
 #gtco-products,
@@ -759,7 +770,9 @@ form label {
 }
 
 #gtco-features {
-  background: linear-gradient(to bottom right, #8470ff;,#8470ff;);
+    background: linear-gradient(to left top, #8470ff,gray);
+    background-size: cover;
+    background-repeat: no-repeat;   
 }
 
 #gtco-features .gtco-heading h2 {
@@ -798,7 +811,7 @@ form label {
 }
 /* GTCO- Cover */
 .gtco-cover{
-   background: linear-gradient(to left top, #09c6ab,gray);
+   background: linear-gradient(to left top, #8470FF,gray);
 }
 
 .feature-center {
@@ -895,7 +908,10 @@ form label {
   color: gray;
 }
 
-#gtco-products {  /* =================================== */
+
+/* ================= products ===================== */
+
+#gtco-products {  
   background: #008ee0;
 }
 #gtco-products .item img {
@@ -911,9 +927,14 @@ form label {
   color: rgba(255, 255, 255, 0.8);
 }
 
-#gtco-subscribe {   /* ================= Subscribe ===================== */
-  background: #0098EF;
+/* ================= Subscribe ===================== */
+
+#gtco-subscribe { 
+    background: linear-gradient(to left top, #8470ff,gray);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
 #gtco-subscribe .form-control {
   background: transparent;
   color: #fff;
@@ -945,8 +966,8 @@ form label {
 #gtco-subscribe .btn {
   height: 46px;
   border: none !important;
-  background: #8470ff;
-  color: #fff;
+  background: #fff;
+  color: #8470ff;
   font-size: 16px;
   text-transform: uppercase;
   font-weight: 400;
@@ -970,6 +991,10 @@ form label {
   color: rgba(255, 255, 255, 0.5);
 }
 
+
+/* ==========================  sTART Footer Section ======================*/
+
+
 #gtco-footer .gtco-footer-links {
   padding: 0;
   margin: 0 0 20px 0;
@@ -984,9 +1009,11 @@ form label {
 }
 #gtco-footer .gtco-footer-links li a {
   text-decoration: none;
+    color: #8470ff
 }
 #gtco-footer .gtco-footer-links li a:hover {
   text-decoration: underline;
+    color: #000
 }
 #gtco-footer .gtco-widget {
   margin-bottom: 30px;
@@ -1002,11 +1029,19 @@ form label {
   padding: 0;
   margin: 0;
 }
-#gtco-footer .gtco-widget .gtco-quick-contact li {
+#gtco-footer .gtco-widget .gtco-quick-contact li a{
   padding: 0;
   margin: 0 0 10px 0;
   list-style: none;
+  color: #8470ff; !important
 }
+#gtco-footer .gtco-widget .gtco-quick-contact li a:hover{
+  padding: 0;
+  margin: 0 0 10px 0;
+  list-style: none;
+  color: #000; !important
+}
+
 #gtco-footer .gtco-widget .gtco-quick-contact li i {
   width: 30px;
   float: left;
@@ -1017,6 +1052,7 @@ form label {
   display: inline-block;
   zoom: 1;
   *display: inline;
+    color: #8470ff
 }
 #gtco-footer .footer-logo span {
   color: #8470ff;
@@ -1305,7 +1341,7 @@ form label {
 .btn-primary.btn-outline {
   background: transparent;
   color: #8470ff;
-  border: 2px solid #09C6AB;
+  border: 2px solid #8470FF;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
   background: #8470ff;
@@ -1316,19 +1352,19 @@ form label {
 .btn-success {
   background: #5cb85c;
   color: #fff;
-  border: 2px solid #5cb85c;
+  border: 2px solid #8470ff;
 }
 .btn-success:hover, .btn-success:focus, .btn-success:active {
-  background: #4cae4c !important;
-  border-color: #4cae4c !important;
+  background: #8470ff !important;
+  border-color: #8470ff !important;
 }
 .btn-success.btn-outline {
   background: transparent;
-  color: #5cb85c;
-  border: 2px solid #5cb85c;
+  color: #8470ff;
+  border: 2px solid #8470ff;
 }
 .btn-success.btn-outline:hover, .btn-success.btn-outline:focus, .btn-success.btn-outline:active {
-  background: #5cb85c;
+  background: #8470ff;
   color: #fff;
 }
 
@@ -1524,7 +1560,7 @@ form label {
   margin-left: 0px;
 }
 .gtco-nav .gtco-contact ul li a i {
-  color: #09C6AB;
+  color: #8470FF;
 }
 .gtco-nav .gtco-contact ul li a:hover i {
   color: #fff;
@@ -1777,8 +1813,8 @@ form label {
   opacity: 1;
   visibility: visible;
   bottom: 0px;
-  border: 2px solid #0adec0 !important;
-  background: #0adec0 !important;
+  border: 2px solid #8470ff !important;
+  background: #8470ff !important;
 }
 .fh5co-card-item:hover figure .overlay, .fh5co-card-item:focus figure .overlay {
   opacity: 1;
@@ -1810,7 +1846,7 @@ form label {
   border-radius: 5px;
 }
 .price-box.popular {
-  border: 2px solid #09C6AB;
+  border: 2px solid #8470FF;
 }
 .price-box.popular .popular-text {
   top: 0;
