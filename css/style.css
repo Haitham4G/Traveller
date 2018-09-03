@@ -1833,6 +1833,11 @@ form label {
   }
 }
 
+
+/* ========================================================================
+    Price Section 
+=================================== */
+
 .price-box {
   background: #fff;
   border: 2px solid #ECEEF0;
@@ -1903,6 +1908,25 @@ form label {
   margin: 0;
   list-style: none;
   text-align: center;
+}
+
+
+/* ========================================================================
+    Qution And Answer Section 
+=================================== */
+
+.gtco-section-ask {
+    background: linear-gradient(to left top, #8470ff,gray);
+    padding-top: 50px 
+}
+.gtco-section-ask .animate-box {
+    padding: 10px;
+    border-radius: 10px
+}
+.gtco-section-ask p{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 300;
 }
 
 .fh5co-faq-list {
